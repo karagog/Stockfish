@@ -1,0 +1,39 @@
+release
+debug
+
+doc
+include
+bin
+
+build-*-Debug
+build-*-Release
+
+*.[oa]
+*~
+*.lib
+*.dll
+*.so*
+*.user
+*.exe
+*.out
+
+*.dat
+
+
+# The user can add this specially if they need it
+Makefile*
+
+# Qt-specific ignores
+moc_*.cpp
+*.moc
+*.Debug
+*.Release
+*.pro.user*
+*-build-desktop
+
+*.sqlite
+*.log
+*.txt
+
+# Doxygen files
+*.tag
