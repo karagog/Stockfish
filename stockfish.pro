@@ -15,7 +15,6 @@ TEMPLATE = app
 
 # I found these in types.h
 DEFINES += \
-    IS_64BIT \
     USE_POPCNT
 
 TOP_DIR = .
